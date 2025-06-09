@@ -45,6 +45,8 @@ function searchRedirect(e) {
         search_engine = "https://search.brave.com/search?q=";
     else if (preferred_engine === "ecosia")
         search_engine = "https://www.ecosia.org/search?q=";
+    else if (preferred_engine === "perplexity")
+        search_engine = "https://perplexity.ai/?q=";
     else if (preferred_engine === "ithy")
         search_engine = "https://ithy.com/?q=";
 
